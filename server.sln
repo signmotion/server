@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "server-boost-asio", "server-boost-asio\server-boost-asio.vcxproj", "{4C8026B2-3459-4003-9690-B3E72482FF8A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "async-tcp-echo-server", "async-tcp-echo-server\async-tcp-echo-server.vcxproj", "{E1F0DC1D-9809-4EBE-B789-4D2EADB81DA2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "blocking-tcp-echo-client", "blocking-tcp-echo-client\blocking-tcp-echo-client.vcxproj", "{D2276AEC-1CA9-42D8-8FB3-5D3523AF8C4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C8026B2-3459-4003-9690-B3E72482FF8A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4C8026B2-3459-4003-9690-B3E72482FF8A}.Debug|Win32.Build.0 = Debug|Win32
+		{4C8026B2-3459-4003-9690-B3E72482FF8A}.Release|Win32.ActiveCfg = Release|Win32
+		{4C8026B2-3459-4003-9690-B3E72482FF8A}.Release|Win32.Build.0 = Release|Win32
+		{E1F0DC1D-9809-4EBE-B789-4D2EADB81DA2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E1F0DC1D-9809-4EBE-B789-4D2EADB81DA2}.Debug|Win32.Build.0 = Debug|Win32
+		{E1F0DC1D-9809-4EBE-B789-4D2EADB81DA2}.Release|Win32.ActiveCfg = Release|Win32
+		{E1F0DC1D-9809-4EBE-B789-4D2EADB81DA2}.Release|Win32.Build.0 = Release|Win32
+		{D2276AEC-1CA9-42D8-8FB3-5D3523AF8C4D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D2276AEC-1CA9-42D8-8FB3-5D3523AF8C4D}.Debug|Win32.Build.0 = Debug|Win32
+		{D2276AEC-1CA9-42D8-8FB3-5D3523AF8C4D}.Release|Win32.ActiveCfg = Release|Win32
+		{D2276AEC-1CA9-42D8-8FB3-5D3523AF8C4D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
